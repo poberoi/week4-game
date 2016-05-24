@@ -3,33 +3,39 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: "Aclonica", times, sans-serif;
+	font-family: "Comic Sans", Comic Sans MS, cursive;
 	background: url("../images/backgroundImage.jpg");
+	background-size: 100%;
 	color: black;
 }
 
 .container{
-	width: 100%;
-	max-width: 960px;
+	width: 600px;
 	margin: 0 auto;
 	clear: both;
 }
 
 h1, h2, h3, p{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 ol{
+	padding-left: 15px;
+}
+
+ol li{
 	text-align: left;
-	padding-left: 10px;
+	font-size: 15px;
+	margin-bottom: 10px;
 }
 /*header*/
 #mastHead{
-	background: white;
+	background: #CCFFCC;
 	text-align: center;
 	margin: 10px auto;
 	padding-top: 10px;
 	width: 600px;
+	height: 75px;
 }
 #mastHead h1{
 	font-size: 50px;
@@ -48,36 +54,64 @@ footer{
 
 /*main*/
 #mainContainer {
-	padding: 10px 10px;
-	width: 650px;
+	margin: 0 auto;
+	width: 600px;
 	text-align: center;
 }
 .mainSection {
-	padding: 20px 20px;
-	width: 100%;
-	max-width: 49.5%;
+	margin-left: 10px;
+	padding: 20px 40px;
+	width: 235px;
 	float: left;
-	height: 380px;
-	background: white;
+	height: 520px;
+	background: #CCFFCC;
 }
 
 /*sidebar*/
 .sidebar {
-	padding: 20px 20px;
-	height: 500px;
-	width: 100%;
-	max-width: 49.5%;
+	font-size: 20px;
+	height: 520px;
+	width: 350px;
 	float: right;
-	background: white;
-}
-#game{
-	padding-top: 60px;
 	letter-spacing: 2px;
 }
+#box1{
+	float: left;
+	margin: 0px 10px 5px 10px;
+	background: #CCFFCC;
+	width: 150px;
+	height: 150px;
+}
+#randomNumber{
+	margin-top: 20px;
+	font-size: 50px;
+}
+#playerScore{
+	margin-top: 20px;
+	font-size: 50px;
+}
+#box2{
+	float: right;
+	margin: 0px 10px 5px 10px;
+	background: #CCFFCC;
+	width: 150px;
+	height: 150px;
+}
+.gems{
+	clear: both;
+}	
 .gems img{
-	height: 50px;
-	width: 70px;
+	margin: 5px 5px;
+	height: 120px;
+	width: 140px;
 	background: white;
+}
+#totalBox{
+	margin: 0 auto;
+	padding: 20px 20px;
+	width: 150px;
+	background: #CCFFCC;
+	height: 100px;
 }
 
 

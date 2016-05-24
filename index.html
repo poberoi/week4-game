@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+
 </head>
 <body>
 	<header id="mastHead">
@@ -20,27 +21,42 @@
 			<h2>Rules of the Game:</h2>
 			<ol type="I">
 				<li>You will be given a random number at the start of the game.</li>
-				<li>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to you total score.</li>
-				<li>You win the game by matching your total score to random number, you lose the game if you total score goes above the random number</li>
-				<li>The value of each crystal is hidden from you until you click on it</li>
-				<li>Each time when the game starts, the game will change the values of each crystal</li>
+				<li>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+				<li>You win the game by matching your total score to random number, you lose the game if you total score goes above the random number.</li>
+				<li>The value of each crystal is hidden from you until you click on it.</li>
+				<li>Each time when the game starts, the game will change the values of each crystal.</li>
 			</ol>
 			</div>
 		</section>
 		<section class="sidebar">
-				<div id="game">
-					<div>
-						<span id="randomnumber">Test</span>
-						<span id="winLose">Test1, Test2, Test3</span>
-					</div>
-					<div class="gems">
-						<span><img src="assets/images/gem1.jpg" id="gem1"></span>
-						<span><img src="assets/images/gem2.png" id="gem2"></span>
-						<span><img src="assets/images/gem3.jpg" id="gem3"></span>
-						<span><img src="assets/images/gem4.jpg" id="gem4"></span>
-					</div>
-					<div id="total">total</div>
+			<div id="game">
+				<div id="box1">Number to Match:
+					<br>
+					<div id="randomNumber"></div>
 				</div>
+				<div id="box2">Your Total Score:
+					<div id="playerScore"></div>
+				</div>
+			</div>
+			<div class="gems">
+				<div id="row1">
+					<span>
+						<img src="assets/images/gem1.jpg" id="gem1">
+						<img src="assets/images/gem2.png" id="gem2">
+					</span>
+				</div>
+				<div id="row2">
+					<span>
+						<img src="assets/images/gem3.jpg" id="gem3">
+						<img src="assets/images/gem4.jpg" id="gem4">
+					</span>
+				</div>
+			</div>
+			<div id="totalBox">
+					<span>Wins: </span><span id=wins>0</span>
+					<br />
+					<span>Losses: </span><span id=losses>0</span>
+			</div>
 		</section>
 	</div>
 
@@ -50,6 +66,7 @@
 		</div>
 	</footer>
 
+	<script src="https://code.jquery.com/jquery.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
