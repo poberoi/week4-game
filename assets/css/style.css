@@ -1,0 +1,83 @@
+/*general*/
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Aclonica", times, sans-serif;
+	background: url("../images/backgroundImage.jpg");
+	color: black;
+}
+
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1, h2, h3, p{
+	margin-bottom: 20px;
+}
+
+ol{
+	text-align: left;
+	padding-left: 10px;
+}
+/*header*/
+#mastHead{
+	background: white;
+	text-align: center;
+	margin: 10px auto;
+	padding-top: 10px;
+	width: 600px;
+}
+#mastHead h1{
+	font-size: 50px;
+}
+
+
+/*footer*/
+footer{
+	font-family: "Times New Roman", times, serif;
+	padding: 30px 0;
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+}
+
+/*main*/
+#mainContainer {
+	padding: 10px 10px;
+	width: 650px;
+	text-align: center;
+}
+.mainSection {
+	padding: 20px 20px;
+	width: 100%;
+	max-width: 49.5%;
+	float: left;
+	height: 380px;
+	background: white;
+}
+
+/*sidebar*/
+.sidebar {
+	padding: 20px 20px;
+	height: 500px;
+	width: 100%;
+	max-width: 49.5%;
+	float: right;
+	background: white;
+}
+#game{
+	padding-top: 60px;
+	letter-spacing: 2px;
+}
+.gems img{
+	height: 50px;
+	width: 70px;
+	background: white;
+}
+
+
